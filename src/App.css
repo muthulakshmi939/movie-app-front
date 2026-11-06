@@ -1,0 +1,136 @@
+
+* {
+  box-sizing: border-box;
+}
+
+.auth-container {
+  min-height: 100vh;
+  background: #0b0b1a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.auth-card {
+  width: 100%;
+  max-width: 430px;
+  background: #19192f;
+  padding: 35px;
+  border-radius: 18px;
+  border: 1px solid #38305c;
+  box-shadow: 0 10px 40px rgba(124, 58, 237, 0.2);
+}
+
+.auth-logo {
+  font-size: 45px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.auth-card h2 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+.auth-subtitle {
+  text-align: center;
+  color: #aaa6c3;
+  font-size: 14px;
+  margin-bottom: 28px;
+  line-height: 1.5;
+}
+
+.auth-card form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-card label {
+  margin: 12px 0 8px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.auth-card input {
+  width: 100%;
+  padding: 13px;
+  background: #101024;
+  border: 1px solid #393452;
+  border-radius: 8px;
+  color: white;
+  outline: none;
+  font-size: 14px;
+}
+
+.auth-card input:focus {
+  border-color: #8b5cf6;
+}
+
+.auth-card input::placeholder {
+  color: #77748d;
+}
+
+.password-box {
+  position: relative;
+}
+
+.password-box input {
+  padding-right: 65px;
+}
+
+.password-box span {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #a78bfa;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.auth-btn {
+  margin-top: 25px;
+  padding: 14px;
+  background: linear-gradient(90deg, #7c3aed, #a855f7);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.auth-btn:hover {
+  background: #9333ea;
+  transform: translateY(-2px);
+}
+
+.auth-footer {
+  text-align: center;
+  color: #aaa6c3;
+  margin-top: 22px;
+  font-size: 14px;
+}
+
+.auth-footer a,
+.back-home {
+  color: #a78bfa;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.auth-footer a:hover,
+.back-home:hover {
+  color: white;
+}
+
+.back-home {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 13px;
+}
